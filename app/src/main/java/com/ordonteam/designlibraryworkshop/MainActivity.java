@@ -1,9 +1,9 @@
 package com.ordonteam.designlibraryworkshop;
 
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, R.string.button, Toast.LENGTH_LONG).show();
+                Snackbar.make(findViewById(R.id.container), R.string.button, Snackbar.LENGTH_LONG).show();
             }
         });
     }
