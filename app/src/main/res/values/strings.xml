@@ -5,4 +5,7 @@
     <string name="navigation_header_title">Design Library</string>
     <string name="navigation_header_message">Android Suppot Design Library 23.1.1</string>
     <string name="gallery">Gallery menu item clicked</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
