@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(findViewById(R.id.container), R.string.button, Snackbar.LENGTH_LONG).show();
+                Snackbar.make(findViewById(R.id.container), R.string.button, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.action, null).show();
             }
         });
     }
