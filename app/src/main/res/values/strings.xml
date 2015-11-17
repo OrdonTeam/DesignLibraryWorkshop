@@ -2,4 +2,6 @@
     <string name="app_name">DesignLibraryWorkshop</string>
     <string name="button">Button</string>
     <string name="action">Action</string>
+    <string name="navigation_header_title">Design Library</string>
+    <string name="navigation_header_message">Android Suppot Design Library 23.1.1</string>
 </resources>
