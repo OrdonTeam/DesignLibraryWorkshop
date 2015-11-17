@@ -4,4 +4,5 @@
     <string name="action">Action</string>
     <string name="navigation_header_title">Design Library</string>
     <string name="navigation_header_message">Android Suppot Design Library 23.1.1</string>
+    <string name="gallery">Gallery menu item clicked</string>
 </resources>

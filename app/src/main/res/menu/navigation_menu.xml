@@ -6,6 +6,7 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Import"/>
         <item
+            android:id="@+id/navigation_gallery_item"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Gallery"/>
         <item
